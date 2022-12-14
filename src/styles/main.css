@@ -1,17 +1,42 @@
-/* Error: expected ";".
- *   ,
- * 3 | @import"./nav.scss"
- *   |                    ^
- *   '
- *   src/scss/main.scss 3:20  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 3 \2502  @import"./nav.scss"\a   \2502                     ^\a   \2575 \a   src/scss/main.scss 3:20  root stylesheet';
+html nav {
+  position: relative;
 }
+html nav .hl {
+  display: flex;
+  justify-content: center;
+}
+html nav form {
+  display: flex;
+  justify-content: center;
+}
+html nav form .search {
+  border-bottom-color: brown;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 350px;
+}
+html nav form ::placeholder {
+  text-align: right;
+  font-weight: 600;
+}
+html nav ul {
+  display: flex;
+  justify-content: center;
+}
+html nav ul li {
+  list-style: none;
+  display: flex;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-weight: 600;
+  font-size: larger;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */

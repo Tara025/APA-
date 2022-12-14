@@ -1,0 +1,66 @@
+html{
+    nav{
+       
+        position: relative;
+        
+        .hl{ 
+            display: flex;
+            justify-content: center;
+            
+        }
+        form{
+            
+            display: flex;
+            justify-content: center;
+            
+            
+            .search{
+                border-bottom-color: brown;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                width: 350px;
+            }
+            ::placeholder{
+                
+                text-align: right;
+                font-weight: 600;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // 3 überschriften 
+        ul{
+            display: flex;
+            justify-content: center;
+           
+            
+            li{
+              
+               list-style: none;
+               display: flex;
+               padding-left:70px;
+               padding-right: 70px;
+               font-weight: 600;
+               font-size: larger;
+               
+            }
+        }
+        
+    }
+}

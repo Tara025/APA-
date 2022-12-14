@@ -6,6 +6,7 @@ html{
         .hl{ 
             display: flex;
             justify-content: center;
+            margin-top: 60px;
             
         }
         form{
@@ -15,39 +16,25 @@ html{
             
             
             .search{
-                border-bottom-color: brown;
+                border-bottom-color: gray;
                 border-top: none;
                 border-left: none;
                 border-right: none;
-                width: 350px;
+                width: 325px;
+                margin-top: 40px;
             }
             ::placeholder{
-                
+                color: red;
                 text-align: right;
                 font-weight: 600;
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // 3 überschriften 
         ul{
             display: flex;
             justify-content: center;
+            margin-top: 30px;
            
             
             li{

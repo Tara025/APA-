@@ -1,0 +1,21 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body .container {
+  width: 100vw;
+  height: 100vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */
